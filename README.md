@@ -8,4 +8,4 @@
 
 -Copy the DS1302 folder to the libraries 
 
--You can edit the code to match the time to your area.
+-You can edit the code to match your region's time at the // NTP line.
