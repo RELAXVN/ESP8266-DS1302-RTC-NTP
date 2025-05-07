@@ -24,7 +24,7 @@ DS1302 rtc(RST_PIN, DAT_PIN, CLK_PIN);
 
 // NTP
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "pool.ntp.org", 7 * 3600, 60000);  //<<<<< GMT+7, update mỗi 60s <<<<<<
+NTPClient timeClient(ntpUDP, "pool.ntp.org", 7 * 3600, 60000);  //<< GMT+7,"3600", update mỗi 60s
 
 bool synced = false;
 
