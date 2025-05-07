@@ -9,3 +9,12 @@
 -Copy the DS1302 folder to the libraries 
 
 -You can edit the code to match your region's time at the // NTP line.
+
+|   device   | ESP8266 pin |
+| ---------- | ----------- |
+| DS1302 CLK | D5 (GPIO14) |
+| DS1302 DAT | D6 (GPIO12) |
+| DS1302 RST | D7 (GPIO13) |
+| OLED SDA   | D2 (GPIO4)  |
+| OLED SCL   | D1 (GPIO5)  |
+
