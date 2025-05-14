@@ -1,4 +1,3 @@
-//RELAXVN
 #include "DS1302.h"
 
 #define DS1302_SEC     0x80
